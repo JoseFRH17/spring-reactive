@@ -1,0 +1,4 @@
+CREATE TABLE USER (
+    EMAIL varchar(255) NOT NULL PRIMARY KEY,
+    NAME varchar(255) NOT NULL,
+)

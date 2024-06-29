@@ -7,11 +7,14 @@ import org.testcontainers.containers.PostgreSQLContainer;
 
 @TestConfiguration(proxyBeanMethods = false)
 public class PostgresContainerConfiguration {
-    @Bean
-    @ServiceConnection
-    public PostgreSQLContainer postgreSQLContainer() {
-        return new PostgreSQLContainer<>("postgres:13.2")
-                .withDatabaseName("reactive_general_market")
-                .withInitScript("init.sql");
-    }
+
+  @Bean
+  @ServiceConnection
+  public PostgreSQLContainer<?> postgreSQLContainer() {
+    return new PostgreSQLContainer<>("postgres:13.2")
+        .withDatabaseName("test_mvc")
+        .withUsername("user")
+        .withPassword("password")
+        .withInitScript("init.sql");
+  }
 }

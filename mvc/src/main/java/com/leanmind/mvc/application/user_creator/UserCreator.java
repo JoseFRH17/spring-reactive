@@ -1,4 +1,4 @@
-package com.leanmind.mvc.application;
+package com.leanmind.mvc.application.user_creator;
 
 import com.leanmind.mvc.domain.User;
 import com.leanmind.mvc.domain.UserRepository;

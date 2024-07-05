@@ -5,6 +5,7 @@ import com.leanmind.reactivemvc.domain.repository.UserRepository;
 import com.leanmind.reactivemvc.infrastructure.entity.UserEntity;
 import com.leanmind.reactivemvc.infrastructure.repository.R2dbCUserRepository;
 import org.springframework.stereotype.Component;
+import reactor.core.publisher.Mono;
 
 @Component
 public class PostgresUserRepository implements UserRepository {
@@ -18,5 +19,11 @@ public class PostgresUserRepository implements UserRepository {
     @Override
     public void save(User user) {
         r2dbCUserRepository.save(UserEntity.from(user));
+    }
+
+    @Override
+    public Mono<User> findByEmail(String email) {
+        return r2dbCUserRepository.findByEmail(email)
+                .map(userEntity -> new User(userEntity.name(), userEntity.email()));
     }
 }

@@ -5,6 +5,7 @@ import com.leanmind.reactivemvc.domain.repository.UserRepository;
 import com.leanmind.reactivemvc.infrastructure.entity.UserEntity;
 import com.leanmind.reactivemvc.infrastructure.repository.R2dbCUserRepository;
 import org.springframework.stereotype.Component;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 @Component
@@ -24,6 +25,12 @@ public class PostgresUserRepository implements UserRepository {
     @Override
     public Mono<User> findByEmail(String email) {
         return r2dbCUserRepository.findByEmail(email)
+                .map(userEntity -> new User(userEntity.name(), userEntity.email()));
+    }
+
+    @Override
+    public Flux<User> findAll() {
+        return r2dbCUserRepository.findAll()
                 .map(userEntity -> new User(userEntity.name(), userEntity.email()));
     }
 }

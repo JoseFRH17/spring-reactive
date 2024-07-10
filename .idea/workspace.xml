@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f84fe820-539c-4487-96e4-e260d352aee6" name="Changes" comment=":tada: init mvc">
-      <change afterPath="$PROJECT_DIR$/mvc/src/test/java/com/leanmind/mvc/LocalMvcApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/src/test/java/com/leanmind/mvc/configuration/PostgresContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvc/src/test/resources/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reactive-mvc/src/main/java/com/leanmind/reactivemvc/application/all_user_finder/AllUserFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mvc/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive-mvc/src/main/java/com/leanmind/reactivemvc/domain/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactive-mvc/src/main/java/com/leanmind/reactivemvc/domain/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive-mvc/src/main/java/com/leanmind/reactivemvc/infrastructure/adapter/PostgresUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactive-mvc/src/main/java/com/leanmind/reactivemvc/infrastructure/adapter/PostgresUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactive-mvc/src/main/java/com/leanmind/reactivemvc/infrastructure/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/reactive-mvc/src/main/java/com/leanmind/reactivemvc/infrastructure/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,16 +23,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -58,18 +62,25 @@
     "Spring Boot.MvcApplication.executor": "Debug",
     "Spring Boot.ReactiveDemoApplication.executor": "Run",
     "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "21",
+    "jdk.selected.JAVA_MODULE": "openjdk-22",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/Proyectos/spring-reactive/reactive-mvc/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "run.configurations.included.in.services": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.leanmind.reactivemvc.application.all_user_finder." />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\workspace\spring-reactive" />
     </key>
@@ -83,13 +94,47 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MvcApplication">
+  <component name="RunManager" selected="Spring Boot.LocalReactiveMvc">
+    <configuration name="create_user | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/reactive-mvc/src/test/java/smoke_test/create_user.http" requestIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="find_all_users | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/reactive-mvc/src/test/java/smoke_test/find_all_users.http" requestIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="ReactiveMvcApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reactive-mvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leanmind.reactivemvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.leanmind.reactivemvc" />
+      <option name="MAIN_CLASS_NAME" value="com.leanmind.reactivemvc.ReactiveMvcApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LocalMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mvc" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.leanmind.mvc.LocalMvcApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.leanmind.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalReactiveMvc" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reactive-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leanmind.reactivemvc.configuration.LocalReactiveMvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.leanmind.reactivemvc.configuration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,8 +156,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReactiveMvcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="reactive-mvc" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leanmind.reactivemvc.ReactiveMvcApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LocalReactiveMvc" />
+        <item itemvalue="HTTP Request.find_all_users | GET request to example server" />
+        <item itemvalue="HTTP Request.create_user | GET request to example server" />
+        <item itemvalue="JUnit.ReactiveMvcApplicationTests" />
         <item itemvalue="Spring Boot.LocalMvcApplication" />
       </list>
     </recent_temporary>
@@ -135,6 +191,7 @@
       <updated>1719582356043</updated>
       <workItem from="1719582357251" duration="705000" />
       <workItem from="1719656883184" duration="1417000" />
+      <workItem from="1720632615407" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: init mvc">
       <option name="closed" value="true" />

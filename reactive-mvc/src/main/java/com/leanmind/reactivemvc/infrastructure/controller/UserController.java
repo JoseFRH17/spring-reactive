@@ -25,9 +25,8 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<Void> createUser(@RequestBody CreateUserRequestDto userDto) {
-        userCreator.execute(userDto);
-        return ResponseEntity.ok().build();
+    public ResponseEntity<Mono<User>> createUser(@RequestBody CreateUserRequestDto userDto) {
+        return ResponseEntity.ok(userCreator.execute(userDto));
     }
 
     @GetMapping

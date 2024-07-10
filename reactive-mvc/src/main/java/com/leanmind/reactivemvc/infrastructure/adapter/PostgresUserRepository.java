@@ -18,13 +18,14 @@ public class PostgresUserRepository implements UserRepository {
     }
 
     @Override
-    public void save(User user) {
-        r2dbCUserRepository.save(UserEntity.from(user));
+    public Mono<User> save(User user) {
+        return r2dbCUserRepository.save(UserEntity.from(user))
+            .map(userEntity -> new User(userEntity.name(), userEntity.email()));
     }
 
     @Override
     public Mono<User> findByEmail(String email) {
-        return r2dbCUserRepository.findByEmail(email)
+        return r2dbCUserRepository.findById(email)
                 .map(userEntity -> new User(userEntity.name(), userEntity.email()));
     }
 

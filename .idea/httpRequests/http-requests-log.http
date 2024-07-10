@@ -1,31 +1,53 @@
 GET http://localhost:8080/user/all
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-07-10T185135.200.json
-
-###
-
-POST http://localhost:8080/user
-Content-Type: application/json
-Content-Length: 51
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
-Accept-Encoding: br, deflate, gzip, x-gzip
-Accept: */*
-
-{
-  "name": "John Doe",
-  "email": "jhon@doe.com"
-}
+<> 2024-07-10T200653.200.json
 
 ###
 
 POST http://localhost:8080/user
 Content-Type: application/json
 Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T200648.200.json
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T200414.200.json
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T200354.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
@@ -37,19 +59,543 @@ Accept: */*
 ###
 
 GET http://localhost:8080/user/all
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 content-length: 0
 
-<> 2024-07-10T185007.500.json
+<> 2024-07-10T200346.200.json
 
 ###
 
 POST http://localhost:8080/user
 Content-Type: application/json
 Content-Length: 52
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T200123.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T200101.200.json
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T200056.200.json
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T200045.200.json
+
+###
+
+GET http://localhost:8080/user?email=jhon@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T200038.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T195943.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user/all
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T195929.200.json
+
+###
+
+GET http://localhost:8080/user?email=jhon1@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T195909.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T195331.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T195213.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T194901.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T194248.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T194138.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T193833.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T193714.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T193619.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T191945.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+<> 2024-07-10T191724.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user?email=jhon1@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user?email=jhon1@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://localhost:8080/user?email=jhon1@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user?email=jhon@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T190702.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user?email=jhon@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T190647.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user?email=jhon1@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T190542.500.json
+
+###
+
+GET http://localhost:8080/user?email=jhon@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T190529.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "name": "John Doe",
+  "email": "jhon1@doe.com"
+}
+
+###
+
+GET http://localhost:8080/user?email=jhon@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T185956.500.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+Content-Length: 52
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
@@ -63,7 +609,7 @@ Accept: */*
 POST http://localhost:8080/user
 Content-Type: application/json
 Content-Length: 51
-User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
 Accept-Encoding: br, deflate, gzip, x-gzip
 Accept: */*
 
@@ -71,6 +617,16 @@ Accept: */*
   "name": "John Doe",
   "email": "jhon@doe.com"
 }
+
+###
+
+GET http://localhost:8080/user?email=jhon@doe.com
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2024-07-10T185704.500.json
 
 ###
 

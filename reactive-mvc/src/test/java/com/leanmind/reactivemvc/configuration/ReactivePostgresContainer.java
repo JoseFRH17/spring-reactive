@@ -1,5 +1,9 @@
 package com.leanmind.reactivemvc.configuration;
 
+import com.github.dockerjava.api.model.ExposedPort;
+import com.github.dockerjava.api.model.HostConfig;
+import com.github.dockerjava.api.model.PortBinding;
+import com.github.dockerjava.api.model.Ports.Binding;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
 import org.springframework.context.annotation.Bean;
@@ -12,7 +16,14 @@ public class ReactivePostgresContainer {
   @SuppressWarnings("resource")
   public PostgreSQLContainer<?> postgreSQLContainer() {
     return new PostgreSQLContainer<>("postgres:13.2")
-        .withDatabaseName("reactive_general_market")
+        .withExposedPorts(5432)
+        .withCreateContainerCmdModifier(cmd -> cmd.withHostConfig(
+                new HostConfig()
+                    .withPortBindings(new PortBinding(Binding.bindPort(5432),new ExposedPort(5432))
+                    )
+            )
+        )
+        .withDatabaseName("reactive_mvc")
         .withUsername("user")
         .withPassword("password")
         .withInitScript("init.sql");
